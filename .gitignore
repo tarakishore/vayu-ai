@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Streamlit secrets (never commit API keys)
+.streamlit/secrets.toml
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+*.h5
+
+# Generated
+VAYU_AI_Presentation.pdf
+generate_pdf.py
+vayu_ai_final.zip
